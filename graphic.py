@@ -2,11 +2,12 @@ import matplotlib.pyplot as plt
 import numpy as np
 import datetime as dt
 def graphic_temp(clean_data:dict,temp_min:float,temp_max:float):
+    title="Temperature Valencia Vzla Next 15 days"
     fig,ax = plt.subplots(figsize = (9, 9))
 
     ax.scatter(temp_min[1],temp_min[0], s=60, alpha=0.7, edgecolors="k")
     ax.scatter(temp_max[1],temp_max[0], s=60, alpha=0.7, edgecolors="k")
-    ax.set_title("Temperature Valencia Vzla Next 15 days")
+    ax.set_title(title)
     ax.set_xlabel('Days')
     ax.set_ylabel('Temperature °C')
     ax.text(temp_min[1],temp_min[0]," temp min: "+str(temp_min[0])+"°C")
