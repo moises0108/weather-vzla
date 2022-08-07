@@ -3,7 +3,7 @@
 
 take the next 15 days pronostic weather from https://www.visualcrossing.com/weather-api and graph with the warming and coldest day from any location
 ## Install and Run
-- First of all you need to install de packacge in [requeriments.txt](requeriments.txt)
+- First of all you need to install de package in [requeriments.txt](requeriments.txt)
 - Create a account in https://www.visualcrossing.com/weather-api and copy the apikey
 - Paste the apikey in a new file called config.py like this: api_key="YOUR KEY" 
 - if you want to change the coords just modift the variables 'lat'(latitude) and 'lon'(longitude) from th file [request.py](request.py)
